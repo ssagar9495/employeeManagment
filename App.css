@@ -1,0 +1,61 @@
+.mainContainer {
+  /* z-index: 1; */
+  height: 100vh;
+  min-height: 100vh;
+}
+.topHeading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.middleContaner {
+  display: flex;
+  width: 100%;
+}
+.leftInfoBox {
+  width: 40%;
+  border: 1px solid black;
+  padding: 20px 20px 20px 20px;
+}
+
+.dataRow {
+  display: flex;
+  cursor: pointer;
+  width: 100%;
+  padding: 4px 4px 4px 4px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+.dataRow:hover {
+  background-color: lightblue;
+}
+
+.record {
+  width: 100%;
+}
+.deleteIcon {
+  text-align: end;
+  cursor: pointer;
+  color: red;
+}
+.rightInfoBox {
+  width: 60%;
+  border: 1px solid black;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inforCenterDiv {
+  text-align: start;
+  width: 50%;
+}
+
+.submitbtn {
+  cursor: pointer;
+}
